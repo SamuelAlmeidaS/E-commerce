@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-principal: #3F1CF5;
+}
+
+header {
+    background-color: #3F1CF5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+header > h1 {
+    margin-left: 20px;
+}
+
+nav > ul {
+    display: flex;
+    margin-right: 20px;
+}
+
+nav > ul > li {
+    list-style: none;
+    margin-right: 8px;
+}
+
+#cart {
+    margin-left: 8px;
+}
+
+#cart::before {
+    content: url('./assets/icons8-adicionar-o-carrinho-de-compras-30.png');
+}
+
+.search {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.search input {
+    width: 40%;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+
+.img-content {
+    border: 1px solid black;
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
